@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,47 @@
   <link rel="stylesheet" href="./styles/styles.css">
   <title>Simple Calculator</title>
 </head>
+
 <body>
   <div class="container">
-    
+
     <div class="layout2">
-        <div class="layout1"></div>
-        <div class="layout3"></div>
+      <div class="layout1"></div>
+      <div class="layout3"></div>
     </div>
-    
+
   </div>
-    <div class="calc-container">
-      <input type="text" class="calc-display">
-      <input type="text" class="calc-result">
-      <div class="keypad">
-        <button class="btn">%</button>
-        <button class="btn">C</button>
-        <button class="btn">&larr;</button>
-        <button class="btn btn-gray">&divide;</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="btn btn-gray">&times;</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn btn-gray">&#45;</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn btn-gray">&#43;</button>
-        <button class="btn">&plusmn;</button>
-        <button class="btn">0</button>
-        <button class="btn">.</button>
-        <button class="btn btn-orange">&#61;</button>
+  <div class="calc-container">
+    <input type="text" class="calc-display">
+    <input type="text" class="calc-result">
+    <div class="keypad">
+      <div class="container">
+        <input type='button' value='%' class="btn btn-operator">
+        <input type='button' value='C' class="btn btn-operator">
+        <input type='button' value='&larr;' class="btn btn-operator">
+        <input type='button' value='&divide;' class="btn btn-gray btn-operator">
+        <input type='button' value='7' class="btn">
+        <input type='button' value='8' class="btn">
+        <input type='button' value='9' class="btn">
+        <input type='button' value='&times;' class="btn btn-gray btn-operator">
+        <input type='button' value='4' class="btn">
+        <input type='button' value='5' class="btn">
+        <input type='button' value='6' class="btn">
+        <input type='button' value='&#45;' class="btn btn-gray btn-operator">
+        <input type='button' value='1' class="btn">
+        <input type='button' value='2' class="btn">
+        <input type='button' value='3' class="btn">
+        <input type='button' value='&#43;' class="btn btn-gray btn-operator">
+        <input type='button' value='&plusmn;' class="btn btn-operator">
+        <input type='button' value='0' class="btn">
+        <input type='button' value='.' class="btn">
+        <input type='button' value='&#61;' class="btn btn-orange btn-operator">
+      </div>
     </div>
   </div>
 
 
   <script src="./scripts/calc.js"></script>
 </body>
+
 </html>

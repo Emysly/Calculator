@@ -49,10 +49,11 @@
 
 .calc-display {
   position: absolute;
-  top: -5%;
+  top: -8%;
   left: 50%;
+  width: 25rem;
   transform: translate(-50%);
-  padding: .8rem 5rem;
+  padding: .8rem 0.4rem;
   background-color: rgb(16, 73, 73);
   border: 0;
   outline: 0;
@@ -60,16 +61,18 @@
   border-top-right-radius: 10px;
   font-size: 1.2rem;
   color: #f7f7f7;
+  text-align: end;
 }
 
 .calc-result {
-  padding: 2rem .38rem;
+  padding: 2rem 0.35rem;
   background-color: rgb(77, 131, 131);
   border: 0;
   outline: 0;
   font-size: 2rem;
   font-weight: 100;
   color: #f7f7f7;
+  text-align: end;
 }
 
 .keypad {
@@ -82,7 +85,8 @@
 }
 
 .btn {
-  color: rgb(16, 73, 73); ;
+  text-align: center;
+  color: rgb(16, 73, 73);
   height: 5rem;
   width: 5rem;
   border-radius: 5.8rem;
@@ -94,8 +98,25 @@
   outline: 0;
   border: 0;
   margin: 4px;
+  transition: transform 1s ease-in;
   background-color: #f7f7f7;
-  box-shadow: .2rem .2rem 3rem .2rem rgb(190, 190, 190)
+  box-shadow: .2rem .2rem 3rem .2rem rgb(190, 190, 190);
+  -webkit-transition: transform 1s ease-in;
+  -moz-transition: transform 1s ease-in;
+  -ms-transition: transform 1s ease-in;
+  -o-transition: transform 1s ease-in;
+}
+
+.btn:hover {
+  background-color: #b6b4b4;
+}
+
+.btn:active {
+  transform: scale(-5);
+  -webkit-transform: scale(-5);
+  -moz-transform: scale(-5);
+  -ms-transform: scale(-5);
+  -o-transform: scale(-5);
 }
 
 .btn-gray {
