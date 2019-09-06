@@ -13,17 +13,21 @@
 .layout1 {
   width: 30vw;
   height: 100vh;
-  background-color:rgb(253, 67, 0);
+  background-color: #aa3939;
   z-index: 5;
   display: inline-block;
-  clip-path: polygon(0 0, 100% 0, 95% 25%, 37% 60%, 0 75%)
+  clip-path: polygon(0 0, 100% 0, 95% 25%, 37% 60%, 0 75%);
 }
 
 .layout2 {
- position: relative;
+  position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(80deg, rgb(1, 17, 17), rgba(8, 122, 122, 0.541));
+  background-image: linear-gradient(
+    80deg,
+    rgb(1, 17, 17),
+    rgba(8, 122, 122, 0.541)
+  );
   display: inline-block;
 }
 
@@ -31,9 +35,13 @@
   position: absolute;
   width: 60vw;
   height: 100vh;
-  background-image: linear-gradient(80deg, rgb(1, 17, 17), rgba(8, 122, 122, 0.541));
+  background-image: linear-gradient(
+    80deg,
+    rgb(1, 17, 17),
+    rgba(8, 122, 122, 0.541)
+  );
   display: inline;
-  clip-path: polygon(0 0, 75% 0, 65% 100%, 0 100%, 0 75%)
+  clip-path: polygon(0 0, 75% 0, 65% 100%, 0 100%, 0 75%);
 }
 
 .calc-container {
@@ -53,7 +61,7 @@
   left: 50%;
   width: 25rem;
   transform: translate(-50%);
-  padding: .8rem 0.4rem;
+  padding: 0.8rem 0.4rem;
   background-color: rgb(16, 73, 73);
   border: 0;
   outline: 0;
@@ -76,17 +84,17 @@
 }
 
 .keypad {
-  height: 70vh;
+  height: 70%;
   width: 25.05rem;
   background-color: #fff;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: .7rem;
+  padding: 0.7rem;
 }
 
 .btn {
   text-align: center;
-  color: rgb(16, 73, 73);
+  color: #226666;
   height: 5rem;
   width: 5rem;
   border-radius: 5.8rem;
@@ -100,7 +108,7 @@
   margin: 4px;
   transition: transform 1s ease-in;
   background-color: #f7f7f7;
-  box-shadow: .2rem .2rem 3rem .2rem rgb(190, 190, 190);
+  box-shadow: 0.2rem 0.2rem 3rem 0.2rem rgb(190, 190, 190);
   -webkit-transition: transform 1s ease-in;
   -moz-transition: transform 1s ease-in;
   -ms-transition: transform 1s ease-in;
@@ -120,11 +128,11 @@
 }
 
 .btn-gray {
-  background-color: rgb(16, 73, 73);
-  color: #f7f7f7; 
+  background-color: #226666;
+  color: #f7f7f7;
 }
 
 .btn-orange {
-  background-color: rgba(255, 68, 0, 0.637);
-  color: #f7f7f7; 
+  background-color: #d46a6a;
+  color: #f7f7f7;
 }
